@@ -1,0 +1,171 @@
+
+
+ 
+*{
+    color: #ffffff;
+  }
+  
+  body {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  }
+
+.sec-form form input{
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  background-color: transparent;
+  color:#ffffff;
+  font-weight: 500;
+  font-size: 17px;
+}
+.sec-form form input::placeholder{
+  color:rgb(255, 255, 255,.6);
+}
+.sec-form form input:focus{
+  outline: none;
+  background-color: transparent; 
+  border-color: transparent; 
+}
+  .container{
+   
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.16) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+display: flex;
+  padding:14px;
+   
+  }
+  #code1{
+    color:rgb(255, 255, 255,.6);
+  }
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mb-1{
+    background:transparent;
+  }
+  div.sec-form{
+    border-right:2px solid #fffafa;
+  }
+  
+  div.sec-form, div.sec-user{
+    justify-content: center !important;
+    /* display:flex; */
+    background: transparent;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  div.sec-form h1, div.sec-user h1{
+    padding-top: 3%;
+    text-align: center;
+  }
+  
+  div .gender{
+    margin-right: 2%;
+  }
+  
+  div .check2{
+    display: flex;
+  }
+  
+  div .check1{
+    display: flex;
+  }
+  
+  .btn2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .card-body p, .card-body h5{
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .registered{
+    margin-top: 5vmin;
+    margin-bottom: auto;
+  }
+  
+  .img-fluid{
+    height: 210px !important;
+  }
+  
+  .users{
+    border-radius: 5rem;
+    margin-bottom: 5%;
+  }
+  
+  .users:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  @media (max-width: 1140px){
+  
+  .col-10{
+      padding-left: 5vmin;
+    }
+    .custom-con{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  #clr{
+    padding:3px;
+  }
+  }
+  @media (max-width: 768px){
+    .sec-form .btn2{
+      margin-bottom: 4vmin;
+    }
+    .sec-user{
+      border-top:2px solid #000000;
+    }
+  }
+  
+  @media (max-width: 576px){
+    .sec-user{
+      margin-bottom: 2%;
+    }
+  
+    .btn2{
+      display: block;
+    }
+  
+   div .enroll1{
+     margin-bottom: 5%;
+   }
+  
+  }
+  .sec-form form .form-control:focus{
+  box-shadow: none;
+  border-bottom:#ffffff;
+  color:#fffafa;
+}
+
+.registered{
+border-radius: 10px;
+}
+.users{
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, rgb(31, 129, 146) 0%, #7e84f3 100%);
+  /* padding:1%; */
+ border-radius: 8px;
+}
+.card-body p, .card-body h5{
+  word-wrap: break-word;
+}
+.col-5{
+  width:3%;
+}
+
+.sec-form form .check1 input:focus,.sec-form form .check2 input:focus{
+background-color: #0d6efd;
+}
